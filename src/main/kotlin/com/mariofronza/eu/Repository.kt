@@ -10,6 +10,5 @@ interface Repository<Entity : Any, ID : Any> {
     suspend fun create(entity: Entity): Entity
     suspend fun update(entity: Entity): Entity
     suspend fun delete(id: ID)
-    suspend fun delete(entity: Entity)
     suspend fun count(pagination: Pagination? = null): Long
 }
