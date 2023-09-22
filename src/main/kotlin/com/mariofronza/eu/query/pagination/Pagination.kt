@@ -1,6 +1,5 @@
 package com.mariofronza.eu.query.pagination
 
-import com.mariofronza.eu.query.Sort
 import java.util.Date
 
 /**

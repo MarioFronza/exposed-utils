@@ -1,4 +1,4 @@
-package com.mariofronza.eu.query
+package com.mariofronza.eu.query.pagination
 
 /**
  * Represents sorting criteria.

@@ -1,5 +1,7 @@
 package com.mariofronza.eu.query
 
+import com.mariofronza.eu.query.pagination.Order
+import com.mariofronza.eu.query.pagination.Sort
 import org.jetbrains.exposed.sql.Column
 import org.jetbrains.exposed.sql.SizedIterable
 import org.jetbrains.exposed.sql.SortOrder
@@ -48,7 +50,8 @@ fun <T> SizedIterable<T>.order(table: Table, columns: List<Column<*>>, sort: Sor
  */
 fun <T> SizedIterable<T>.order(
     columns: List<Column<*>>,
-    sort: Sort?, default: Pair<Column<*>, Order>
+    sort: Sort?,
+    default: Pair<Column<*>, Order>
 ): SizedIterable<T> {
     val column = sort?.by.let { by ->
         columns.find { it.name == by } ?: default.first

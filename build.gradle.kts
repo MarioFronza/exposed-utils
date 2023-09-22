@@ -15,8 +15,10 @@ repositories {
 dependencies {
     implementation("org.jetbrains.exposed:exposed-core:$exposedVersion")
     implementation("org.jetbrains.exposed:exposed-dao:$exposedVersion")
+    implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
     implementation("ch.qos.logback:logback-classic:1.2.9")
     testImplementation("io.mockk:mockk:${mockkVersion}")
+    testImplementation("com.h2database:h2:2.2.224")
     testImplementation(kotlin("test"))
 }
 

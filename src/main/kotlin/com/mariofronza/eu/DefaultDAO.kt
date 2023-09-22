@@ -2,7 +2,7 @@ package com.mariofronza.eu
 
 import com.mariofronza.eu.query.pagination.Pagination
 import com.mariofronza.eu.query.pagination.PaginationResult
-import com.mariofronza.eu.query.Order
+import com.mariofronza.eu.query.pagination.Order
 import com.mariofronza.eu.query.limit
 import com.mariofronza.eu.query.order
 import com.mariofronza.eu.query.query
