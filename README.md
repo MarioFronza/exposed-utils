@@ -9,21 +9,22 @@ support.
 - Simplified database CRUD operations
 - Efficient pagination support
 
-[//]: # (## Installation)
+## Installation
 
-[//]: # ()
-[//]: # (You can add the Exposed Utils Library to your project by including the following dependency:)
 
-[//]: # ()
-[//]: # (```kotlin)
+You can add the Exposed Utils Library to your project by including the following dependency:
 
-[//]: # (dependencies {)
 
-[//]: # (    implementation&#40;"com.github:exposed-utils:1.0.0"&#41;)
+```kotlin
+repositories {
+    maven { url = URI("https://jitpack.io") }
+    mavenCentral()
+}
 
-[//]: # (})
-
-[//]: # (```)
+dependencies {
+    implementation("com.github.MarioFronza:exposed-utils:1.0.3")
+}
+```
 
 ## Usage
 
@@ -92,7 +93,7 @@ fun main() {
 
 ```
 
-## Documentation and Setup Guide
+## Documentation
 
 TODO
 
