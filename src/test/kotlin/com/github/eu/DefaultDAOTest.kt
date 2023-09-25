@@ -1,10 +1,10 @@
-package com.mariofronza.eu
+package com.github.eu
 
-import com.mariofronza.eu.query.pagination.Pagination
-import com.mariofronza.eu.util.TestDomain
-import com.mariofronza.eu.util.TestRepositoryImpl
-import com.mariofronza.eu.util.TestTable
-import com.mariofronza.eu.util.query
+import com.github.eu.query.pagination.Pagination
+import com.github.eu.util.TestDomain
+import com.github.eu.util.TestRepositoryImpl
+import com.github.eu.util.TestTable
+import com.github.eu.util.query
 import kotlinx.coroutines.runBlocking
 import org.jetbrains.exposed.dao.Entity
 import org.jetbrains.exposed.dao.EntityClass

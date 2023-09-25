@@ -1,7 +1,7 @@
-package com.mariofronza.eu.query
+package com.github.eu.query
 
-import com.mariofronza.eu.query.pagination.Order
-import com.mariofronza.eu.query.pagination.Sort
+import com.github.eu.query.pagination.Order
+import com.github.eu.query.pagination.Sort
 import org.jetbrains.exposed.sql.Column
 import org.jetbrains.exposed.sql.SizedIterable
 import org.jetbrains.exposed.sql.SortOrder

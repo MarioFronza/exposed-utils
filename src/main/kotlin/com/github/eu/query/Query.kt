@@ -1,6 +1,6 @@
-package com.mariofronza.eu.query
+package com.github.eu.query
 
-import com.mariofronza.eu.query.pagination.Pagination
+import com.github.eu.query.pagination.Pagination
 import org.jetbrains.exposed.dao.Entity
 import org.jetbrains.exposed.dao.EntityClass
 import org.jetbrains.exposed.sql.Op

@@ -1,4 +1,4 @@
-package com.mariofronza.eu.query
+package com.github.eu.query
 
 import io.mockk.every
 import io.mockk.mockk

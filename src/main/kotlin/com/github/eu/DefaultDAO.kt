@@ -1,12 +1,12 @@
-package com.mariofronza.eu
+package com.github.eu
 
-import com.mariofronza.eu.query.pagination.Pagination
-import com.mariofronza.eu.query.pagination.PaginationResult
-import com.mariofronza.eu.query.pagination.Order
-import com.mariofronza.eu.query.limit
-import com.mariofronza.eu.query.order
-import com.mariofronza.eu.query.query
-import com.mariofronza.eu.util.query
+import com.github.eu.query.pagination.Pagination
+import com.github.eu.query.pagination.PaginationResult
+import com.github.eu.query.pagination.Order
+import com.github.eu.query.limit
+import com.github.eu.query.order
+import com.github.eu.query.query
+import com.github.eu.util.query
 import org.jetbrains.exposed.dao.Entity
 import org.jetbrains.exposed.dao.EntityClass
 import org.jetbrains.exposed.sql.Column

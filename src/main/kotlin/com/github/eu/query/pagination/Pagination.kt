@@ -1,4 +1,4 @@
-package com.mariofronza.eu.query.pagination
+package com.github.eu.query.pagination
 
 /**
  * Represents pagination settings for querying a list of items.

@@ -1,4 +1,4 @@
-package com.mariofronza.eu.query
+package com.github.eu.query
 
 import org.jetbrains.exposed.sql.Alias
 import org.jetbrains.exposed.sql.Column

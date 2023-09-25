@@ -1,4 +1,4 @@
-package com.mariofronza.eu.util
+package com.github.eu.util
 
 import org.jetbrains.exposed.sql.transactions.experimental.newSuspendedTransaction
 

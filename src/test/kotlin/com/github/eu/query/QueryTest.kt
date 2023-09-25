@@ -1,8 +1,8 @@
-package com.mariofronza.eu.query
+package com.github.eu.query
 
-import com.mariofronza.eu.query.pagination.Pagination
-import com.mariofronza.eu.util.TestEntity
-import com.mariofronza.eu.util.TestTable
+import com.github.eu.query.pagination.Pagination
+import com.github.eu.util.TestEntity
+import com.github.eu.util.TestTable
 import org.jetbrains.exposed.dao.Entity
 import org.jetbrains.exposed.dao.EntityClass
 import org.jetbrains.exposed.dao.id.EntityID

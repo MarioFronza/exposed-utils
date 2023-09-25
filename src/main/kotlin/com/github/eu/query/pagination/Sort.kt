@@ -1,4 +1,4 @@
-package com.mariofronza.eu.query.pagination
+package com.github.eu.query.pagination
 
 /**
  * Represents sorting criteria.

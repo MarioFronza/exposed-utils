@@ -1,7 +1,7 @@
-package com.mariofronza.eu
+package com.github.eu
 
-import com.mariofronza.eu.query.pagination.Pagination
-import com.mariofronza.eu.query.pagination.PaginationResult
+import com.github.eu.query.pagination.Pagination
+import com.github.eu.query.pagination.PaginationResult
 
 interface Repository<Entity : Any, ID : Any> {
     suspend fun findById(id: ID): Entity?

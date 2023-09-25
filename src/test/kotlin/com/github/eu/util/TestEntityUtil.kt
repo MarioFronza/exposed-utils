@@ -1,6 +1,6 @@
-package com.mariofronza.eu.util
+package com.github.eu.util
 
-import com.mariofronza.eu.DefaultDAO
+import com.github.eu.DefaultDAO
 import org.jetbrains.exposed.dao.Entity
 import org.jetbrains.exposed.dao.EntityClass
 import org.jetbrains.exposed.dao.id.EntityID
