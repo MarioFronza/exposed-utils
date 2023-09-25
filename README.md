@@ -73,15 +73,17 @@ class ExposedUserRepository : UserRepository, DefaultDAO<User, Int, UserEntity>(
 
 fun main() {
     // Create a new User
-    val user = UserDao().create(User(1, "John Doe"))
+    val userRepository = ExposedUserRepository()
+    val user = userRepository.create(User(1, "John Doe"))
 
     // Retrieve a User by ID
-    val retrievedUser = UserDao().findById(1)
+    val retrievedUser = userRepository.findById(1)
 
     // Retrieve all Users with pagination
-    val pagination = Pagination(page = 1, itemsPerPage = 10, sort = Order.ASC, search = null)
-    val usersPage = UserDao().findAll(pagination)
+    val pagination = Pagination(page = 0, itemsPerPage = 10, sort = Order.ASC, search = null)
+    val usersPage = userRepository.findAll(pagination)
 }
+
 ```
 
 ## Documentation and Setup Guide
