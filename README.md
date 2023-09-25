@@ -9,15 +9,21 @@ support.
 - Simplified database CRUD operations
 - Efficient pagination support
 
-## Installation
+[//]: # (## Installation)
 
-You can add the Exposed Utils Library to your project by including the following dependency:
+[//]: # ()
+[//]: # (You can add the Exposed Utils Library to your project by including the following dependency:)
 
-```kotlin
-dependencies {
-    implementation("com.github:exposed-utils:1.0.0")
-}
-```
+[//]: # ()
+[//]: # (```kotlin)
+
+[//]: # (dependencies {)
+
+[//]: # (    implementation&#40;"com.github:exposed-utils:1.0.0"&#41;)
+
+[//]: # (})
+
+[//]: # (```)
 
 ## Usage
 
