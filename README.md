@@ -35,7 +35,7 @@ object UserTable : IntIdTable() {
 
 // Define our custom repository (not required)
 interface UserRepository : Repository<User, Int> {
-    suspend fun findByEmail(email: Email): User?
+    suspend fun findByEmail(email: String): User?
 }
 
 // Your DAO class extending DefaultDAO
@@ -66,8 +66,8 @@ class ExposedUserRepository : UserRepository, DefaultDAO<User, Int, UserEntity>(
     }
 
     // The custom findByEmail function
-    override suspend fun findByEmail(email: Email) = query {
-        UserEntity.find { UserTable.email eq email.value }.firstOrNull()?.toUser()
+    override suspend fun findByEmail(email: String) = query {
+        UserEntity.find { UserTable.email eq email }.firstOrNull()?.toUser()
     }
 }
 
