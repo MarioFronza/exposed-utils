@@ -29,18 +29,6 @@ fun <T> SizedIterable<T>.order(table: Table, sort: Sort?, default: Pair<Column<*
     order(table.columns, sort, default)
 
 /**
- * Order a [SizedIterable] based on a [Sort] object and additional columns, using default sorting columns if necessary.
- *
- * @param table The database table.
- * @param columns Additional columns to consider for sorting.
- * @param sort The sort criteria.
- * @param default Default sorting columns and order.
- * @return A [SizedIterable] with the specified sorting applied.
- */
-fun <T> SizedIterable<T>.order(table: Table, columns: List<Column<*>>, sort: Sort?, default: Pair<Column<*>, Order>) =
-    order(table.columns + columns, sort, default)
-
-/**
  * Order a [SizedIterable] based on a list of columns and a [Sort] object, using default sorting columns if necessary.
  *
  * @param columns The columns to consider for sorting.
