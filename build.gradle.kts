@@ -5,6 +5,7 @@ val h2databaseVersion: String by project
 
 plugins {
     kotlin("jvm") version "1.9.0"
+    id("maven-publish")
 }
 
 group = "com.github"
