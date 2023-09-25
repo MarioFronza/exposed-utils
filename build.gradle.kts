@@ -8,7 +8,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.github"
+group = "com.github.MarioFronza"
 version = "1.0.0"
 
 repositories {
