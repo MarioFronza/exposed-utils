@@ -1,4 +1,4 @@
-# Exposed Utils
+# Exposed Utils 🦑
 
 The Exposed Utils Library is a collection of useful functions and utilities designed to enhance the functionality of the
 Exposed framework when used with Kotlin. This library simplifies database operations and provides convenient pagination
@@ -93,5 +93,5 @@ TODO
 We welcome contributions from the community! To build and test the library, follow these steps:
 
 1. Clone the repository.
-2. Build the project using ./gradlew build.
-3. Run tests using ./gradlew test.
+2. Build the project using `./gradlew build`.
+3. Run tests using `./gradlew test`.
