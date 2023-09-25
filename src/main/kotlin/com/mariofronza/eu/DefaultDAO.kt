@@ -6,7 +6,7 @@ import com.mariofronza.eu.query.pagination.Order
 import com.mariofronza.eu.query.limit
 import com.mariofronza.eu.query.order
 import com.mariofronza.eu.query.query
-import com.mariofronza.eu.utils.query
+import com.mariofronza.eu.util.query
 import org.jetbrains.exposed.dao.Entity
 import org.jetbrains.exposed.dao.EntityClass
 import org.jetbrains.exposed.sql.Column
