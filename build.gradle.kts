@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.github.MarioFronza"
-version = "1.0.2"
+version = "1.0.3"
 
 repositories {
     mavenCentral()
@@ -25,6 +25,13 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("Maven") {
+            from(components["kotlin"])
+        }
+    }
+}
 
 tasks.test {
     useJUnitPlatform()
